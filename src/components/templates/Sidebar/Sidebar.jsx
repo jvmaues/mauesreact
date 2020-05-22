@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Sidebar(props) {
   const classes = useStyles();
-  
 
   return (
     <Grid item xs={12} md={4}>
@@ -26,7 +25,6 @@ export default function Sidebar(props) {
         <Typography variant="h6" gutterBottom>
           Titulo
         </Typography>
-        <Typography></Typography>
       </Paper>
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         Archives

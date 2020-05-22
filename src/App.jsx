@@ -36,7 +36,7 @@ const sections = [
 ];
 
 const mainFeaturedPost = {
-  title: 'Inédito, Samico está solteiro!',
+  title: 'Espaço para apresentar o meu trabalho, estudo e portfólio pessoal.',
   description:
     "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
   image: 'https://source.unsplash.com/random',
@@ -91,7 +91,7 @@ export default function Blog() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Café com o Maumau" sections={sections} />
+        <Header title={'Coffee & Dev'} sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
@@ -110,7 +110,7 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <Footer title="Footer" description="Something here to give the footer a purpose!" />
+      <Footer title="João Vitor Maués" description="Done by Dev for Dev" />
     </React.Fragment>
   );
 }
