@@ -6,8 +6,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 
 import Route from './Routes';
-import Header from './components/templates/Header/Header';
-import Footer from './components/templates/Footer/Footer';
+import Header from '../components/templates/Header/Header';
+import Footer from '../components/templates/Footer/Footer';
 
 const sections = [
   { title: 'Home', url: '/' },
