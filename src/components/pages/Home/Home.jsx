@@ -6,9 +6,6 @@ import Grid from '@material-ui/core/Grid';
 import Main from '../../templates/Main/Main';
 import MainFeaturedPost from '../../basics/MainFeaturedPost/MainFeaturedPost';
 
-import post1 from '../../../posts/blog-post.1.md';
-import post2 from '../../../posts/blog-post.2.md';
-import post3 from '../../../posts/blog-post.3.md';
 
 
 
@@ -29,13 +26,12 @@ function Home() {
         imgText: 'A screen with codes and stylish lighting',
       };
 
-      const posts = [post1, post2, post3];
 
     return (
         <React.Fragment>
             <MainFeaturedPost post={mainFeaturedPost} />
             <Grid container spacing={12} className={classes.mainGrid}>
-                <Main title="Home" posts={posts} />
+                <Main title="Home"/>
             </Grid>
         </React.Fragment>
     )

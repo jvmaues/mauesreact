@@ -5,7 +5,6 @@ import Main from '../../templates/Main/Main';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
-import Typography from '@material-ui/core/Typography';
 
 
 function Webdevelopment() {
