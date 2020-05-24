@@ -11,7 +11,7 @@ import AssessmentIcon from '@material-ui/icons/Assessment';
 import MainAbout from '../../templates/MainAbout/MainAbout';
 
 import Sidebar from '../../basics/Sidebar/Sidebar';
-
+import Paper from '@material-ui/core/Paper';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -27,20 +27,8 @@ function About() {
     const sidebar = {
         title: 'About',
         description:
-            'Estudante de Ciência da Computação, busco oportunidade para adquirir experiência com desenvolvimento de sistemas e análise de dados. Prezo sempre trabalhar em equipe, cooperando com todos, buscando sempre melhorar, possuo grande satisfação em ensinar e aprender.',
-        archives: [
-            { title: 'March 2020', url: '#' },
-            { title: 'February 2020', url: '#' },
-            { title: 'January 2020', url: '#' },
-            { title: 'November 1999', url: '#' },
-            { title: 'October 1999', url: '#' },
-            { title: 'September 1999', url: '#' },
-            { title: 'August 1999', url: '#' },
-            { title: 'July 1999', url: '#' },
-            { title: 'June 1999', url: '#' },
-            { title: 'May 1999', url: '#' },
-            { title: 'April 1999', url: '#' },
-        ],
+            'Estudante de Ciência da Computação, em busca de adquirir experiência com desenvolvimento de sistemas e análise de dados. Prezo sempre trabalhar em equipe, cooperando com todos, buscando sempre melhorar, possuo grande satisfação em ensinar e aprender.',
+        
         links: [
             { name: 'GitHub', icon: GitHubIcon, url: 'https://github.com/jvmaues' },
             { name: 'LinkedIn', icon: LinkedInIcon, url: 'https://www.linkedin.com/in/joaovitormaues/' },
@@ -66,6 +54,10 @@ function About() {
                             links={sidebar.links}
                         />
                     </Grid>
+                    <Paper>
+
+                    </Paper>
+
                 </main>
             </Container>
         </React.Fragment>

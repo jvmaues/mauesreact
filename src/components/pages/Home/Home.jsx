@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 import Main from '../../templates/Main/Main';
 import MainFeaturedPost from '../../basics/MainFeaturedPost/MainFeaturedPost';
+import { Typography } from '@material-ui/core';
 
 
 
@@ -23,7 +24,7 @@ function Home() {
         title: 'Desenvolvedor, programador, aluno, profissional, curioso...',
         description: 'Um espaço para compartilhar um pouco das minhas ideias e projetos.',
         image: './amplifyapp/src/assets/img/coding.jpg',
-        imgText: 'A screen with codes and stylish lighting',
+        imgText: 'A image with coffe, notebook and a table',
       };
 
 
@@ -32,6 +33,7 @@ function Home() {
             <MainFeaturedPost post={mainFeaturedPost} />
             <Grid container spacing={12} className={classes.mainGrid}>
                 <Main title="Home"/>
+                <Typography>Desenvolvi esse Site em React e Material UI, a implantação do site fiz com ferramentas AWS, resolvi criar esse site como forma de testar meus conhecimentos e desenvolver um portifólio pesseoal com o intuito de compartilhar conhecimento e ideias.</Typography>
             </Grid>
         </React.Fragment>
     )
